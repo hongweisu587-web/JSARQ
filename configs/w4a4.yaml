@@ -1,0 +1,25 @@
+# Paths are relative to the root of this inference project.
+device: cuda:0
+seed: 42
+upscale: 4
+process_size: 128
+align_method: adain
+warmup: true
+
+models:
+  architecture: weights/base/v2-inference-v-fp32.yaml
+  checkpoint: weights/base/v2-1_512-ema-pruned.ckpt
+  scheduler: weights/base/sd21
+  lora: weights/base/osediff.ckpt
+  context: weights/base/empty_context_embedding.pt
+
+quantization:
+  bits: 4
+  checkpoint_dir: weights/w4a4
+  jointwa_rank: 32
+
+tiling:
+  vae_encoder: 1024
+  vae_decoder: 224
+  latent_size: 64
+  latent_overlap: 32

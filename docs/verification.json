@@ -1,0 +1,40 @@
+{
+  "syntax_checked_python_files": 46,
+  "missing_project_imports": [],
+  "original_source_hashes_unchanged": true,
+  "pipeline_methods_match_original_ast": [
+    "forward",
+    "_gaussian_weights",
+    "_init_tiled_vae",
+    "preheat"
+  ],
+  "low_level_quantization_vae_tiling_color_correction_match_original_text": false,
+  "unit_tests": {
+    "passed": 10,
+    "failed": 0,
+    "torch_version": "2.8.0+cu128",
+    "scope": "Configuration, metadata, preprocessing, and real CPU tensor checkpoint round-trips for both precisions; no SD2.1 artifacts needed."
+  },
+  "full_remote_checkpoint_inference": "not_run; SD2.1 base checkpoint, architecture YAML and scheduler configuration still external",
+  "artifact_export_helper": {
+    "dry_run_no_writes": true,
+    "synthetic_files_copied": 15,
+    "sha256_verified": true,
+    "overwrite_guard_verified": true
+  },
+  "baseline_module_apply_signature_test": "passed; legacy PyTorch 2.0.1 signature emulated using real tensors",
+  "source_changes_in_export_only": {
+    "quantization/saw/saw_layer.py": "Module._apply compatibility with the baseline PyTorch 2.0.1 API; tensor forward math unchanged"
+  },
+  "packaged_calibrated_models": {
+    "presets": [
+      "w4a4",
+      "w6a6"
+    ],
+    "checkpoints": 4,
+    "jointwa_manifests": 6,
+    "ose_adapter_and_context": true,
+    "sha256_verified": true
+  },
+  "environment_setup": "Baseline package pins; full baseline environment was not installed or tested locally"
+}

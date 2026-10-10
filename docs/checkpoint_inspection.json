@@ -1,0 +1,32 @@
+{
+  "checkpoints": [
+    {
+      "preset": "w4a4",
+      "component": "unet",
+      "state_keys": 10542,
+      "jointwa_factor_tensors": 412,
+      "jointwa_factors_fp32_and_finite": true
+    },
+    {
+      "preset": "w4a4",
+      "component": "vae",
+      "state_keys": 1752,
+      "jointwa_factor_tensors": 8,
+      "jointwa_factors_fp32_and_finite": true
+    },
+    {
+      "preset": "w6a6",
+      "component": "unet",
+      "state_keys": 10542,
+      "jointwa_factor_tensors": 412,
+      "jointwa_factors_fp32_and_finite": true
+    },
+    {
+      "preset": "w6a6",
+      "component": "vae",
+      "state_keys": 1752,
+      "jointwa_factor_tensors": 8,
+      "jointwa_factors_fp32_and_finite": true
+    }
+  ]
+}

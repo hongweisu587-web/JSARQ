@@ -1,0 +1,10 @@
+weights/**
+!weights/**/
+!weights/**/README.md
+outputs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.log
+*.zip

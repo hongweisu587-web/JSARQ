@@ -1,0 +1,110 @@
+{
+  "source_project": "PassionSR-main",
+  "files": [
+    {
+      "source": "ldm/util.py",
+      "sha256": "489a8ee24f99fa47ac6fcbe48d2747fb76d8fceefd033c5e0850f8f39d98cb8f"
+    },
+    {
+      "source": "ldm/lora/load_model.py",
+      "sha256": "b7fab7ae2cba16159e655a612046f5c3cac2a1c812f6a9d9945b61fdc735ad17"
+    },
+    {
+      "source": "ldm/lora/lora_weight.py",
+      "sha256": "daa6310babf1c77c233247d083767d8e396b59cd662e7ad6c1c30c495d7888f1"
+    },
+    {
+      "source": "ldm/models/autoencoder.py",
+      "sha256": "5bc707f121192bf2dfcb19d8e643a23997819527552f40ca3584c07324cc7e00"
+    },
+    {
+      "source": "ldm/models/diffusion/ddpm.py",
+      "sha256": "3bbe7897b543b661eac7ea2169ea372c86bb7a19d557f0a480808b188bce4f23"
+    },
+    {
+      "source": "ldm/models/diffusion/ddim.py",
+      "sha256": "d4de6e995ed542f32e09f5bc313972fca786c6563971f8d8ba7af99b9452937d"
+    },
+    {
+      "source": "ldm/modules/attention.py",
+      "sha256": "039654b0484a4b8b3ec5167923b593675cabe74889a6a18b754bf9481bdd9df3"
+    },
+    {
+      "source": "ldm/modules/ema.py",
+      "sha256": "cc389d4353c8ee790199093bddf70ab2ffb03d8587028940d35974fc6351f2eb"
+    },
+    {
+      "source": "ldm/modules/distributions/distributions.py",
+      "sha256": "a304b343529b915c8d7191f696adcb7bbdd539ea9b9eed30ef0bad6d9565ee28"
+    },
+    {
+      "source": "ldm/modules/diffusionmodules/model.py",
+      "sha256": "d423172d8e0101bca66e26febb9be8e684e4c48caf3505280fb65df01ba928fc"
+    },
+    {
+      "source": "ldm/modules/diffusionmodules/openaimodel.py",
+      "sha256": "859250d0dfc57d7487ac3ba4f9c2cb19074671b1be00b5d83657c3b1928351fc"
+    },
+    {
+      "source": "ldm/modules/diffusionmodules/util.py",
+      "sha256": "edfe4821be12c25510f67bbdd09b54216e9fe6a9efe6961582bbed312f0b2981"
+    },
+    {
+      "source": "my_utils/vaehook.py",
+      "sha256": "fc537d27290b583f47d768556e3d2cbe5aa3da79fff4adfa1e6c13b01abd2a4d"
+    },
+    {
+      "source": "my_utils/devices.py",
+      "sha256": "2b51bc63afd173cc129459258b1b334c7b0ec1f9c36e44db9f2213412b6d4f1a"
+    },
+    {
+      "source": "my_utils/wavelet_color_fix.py",
+      "sha256": "a315fcacf40cb160b38f0f4ce888de80eee28471080f5db2e64a67dc3893b379"
+    },
+    {
+      "source": "quantization/saw/quant_config.py",
+      "sha256": "7f86d7a3193fb0dfcf6e1b9c71ed73900b6bc673efe30df01f4ff319e841e125"
+    },
+    {
+      "source": "quantization/saw/quant_layer.py",
+      "sha256": "c335370fa39f882a2b64511f15414e9f3c164a14d3471232053fb4fa0173dc9c"
+    },
+    {
+      "source": "quantization/saw/saw_layer.py",
+      "sha256": "97ff4cbd016fc082ba7d8da41e1b556df8e92230b61c70a0df389c11097631dd"
+    },
+    {
+      "source": "quantization/saw/quant_block.py",
+      "sha256": "8b523bc7c93a85a04609326a9033607340bcc12f57e078903edb80d1a2b8621a"
+    },
+    {
+      "source": "quantization/saw/hadamard_utils.py",
+      "sha256": "80340676dbeaf57b63664518b82cfbaa3a8d0cbd38817b81b55043cf7aa9ecc2"
+    },
+    {
+      "source": "quantization/saw/quant_model.py",
+      "sha256": "74a28d4c5ee5a312a7762ee707d45c79c3df90b3a5505599511b6f18587829d6"
+    },
+    {
+      "source": "quantization/saw/channelwise_asydobi.py",
+      "sha256": "24cd5b67cddb4d0acb8c6e798d3fd9c0ad48cb491eeda4d22ea772cd80182186"
+    },
+    {
+      "source": "quantization/saw/attention_wv_quant.py",
+      "sha256": "2f7b3d2c337bf4cf5cc85c4c23cdf4f9dc77134ee45fb71d0a9b4677969fba4f"
+    },
+    {
+      "source": "ldm/lora/lora_unet_loader.py",
+      "sha256": "0a93a677ae0d73e3406cc1eabe1d5ffd1af4c475d17b25f716cfd2e49f9b9252"
+    },
+    {
+      "source": "inference_single.py",
+      "sha256": "a008bca4fa6110ce252144b0576c7f96a08de555f8368df51496fb33db178ef3"
+    },
+    {
+      "source": "quantization/saw/select_layers.py",
+      "sha256": "e3d542629cbadf482752a14097df38469312c35c4ab0ab6879fdbe5eefcf4e25"
+    }
+  ],
+  "notes": "Low-level tensor forward methods retained. QuantModel training methods and standalone calibration modules excluded."
+}
