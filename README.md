@@ -1,4 +1,4 @@
-# PassionSR Inference
+# JSARQ
 
 Inference code and W4A4 / W6A6 calibrated models based on [PassionSR](https://github.com/libozhu03/PassionSR).
 
@@ -7,17 +7,17 @@ Inference code and W4A4 / W6A6 calibrated models based on [PassionSR](https://gi
 Follow the PassionSR baseline environment: Python 3.10, PyTorch 2.0.1, and CUDA 11.8.
 
 ```bash
-git clone https://github.com/hongweisu587-web/PassionSR-Inference.git
-cd PassionSR-Inference
-conda create -n passionsr-inference python=3.10
-conda activate passionsr-inference
+git clone https://github.com/hongweisu587-web/JSARQ.git
+cd JSARQ
+conda create -n jsarq python=3.10
+conda activate jsarq
 conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install -r requirements-inference.txt
 ```
 
 ## Pretrained Models
 
-Download [PassionSR-Inference.zip](https://github.com/hongweisu587-web/PassionSR-Inference/releases/download/v0.1.0/PassionSR-Inference.zip) and extract its `weights/` directory into the project root. The package also contains the inference code and configurations.
+Download [JSARQ.zip](https://github.com/hongweisu587-web/JSARQ/releases/download/v0.1.0/JSARQ.zip) and extract its `weights/` directory into the project root. The package also contains the inference code and configurations.
 
 | Model / file | Preparation |
 |---|---|
